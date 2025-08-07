@@ -2,7 +2,7 @@ import streamlit as st
 import openai
 
 # Set your OpenAI API key here
-openai.api_key = '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'
+openai.api_key = 'Enter ur API Key'
 # Function to generate resume using ChatGPT
 def generate_resume(name, email, phone, summary, skills, experience, education):
     prompt = f"""
@@ -54,3 +54,4 @@ def main():
 # Run the Streamlit app
 if __name__ == "__main__":
     main()
+
